@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  background-color: lightgray;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 400px;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.377);
+  padding: 50px 20px;
+}
+
+.container .header .profile .image {
+  width: 100px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #5578ba, #40a376);
+}
+
+.container .header .profile .username {
+  font-size: 1.5rem;
+}
+
+.container .header .description {
+  font-size: 0.8rem;
+  color: #919193;
+  margin: 1.5rem 0;
+}
+
+.container .main .links__sociais li {
+  background-image: linear-gradient(to right, #5578ba, #40a376);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.container .main .links__sociais .link {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.container .main .links__sociais .link .bx {
+  font-size: 2rem;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 10px;
+}
+
+.footer ul li a {
+  display: block;
+  background: linear-gradient(to right, #5578ba, #40a376);
+  border-radius: 50%;
+  padding: 15px;
+}

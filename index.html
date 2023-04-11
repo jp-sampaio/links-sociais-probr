@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
       rel="shortcut icon"
       href="./assets/images/favicon.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>Links Sociais ProBR</title>
   </head>
@@ -18,32 +24,37 @@
       <header class="header">
         <div class="profile">
           <img
-            src="./assets/images/perfil.png"
+            src="./assets/images/foto-perfil.png"
             alt="Foto de perfil"
             class="image"
           />
           <span class="username">@jpsampaio</span>
         </div>
-        <p>
-          Desenvolvedor Frontend, acredito que o que faz um bom desenvolvedor é
-          a sua capacidade de resolver problemas.
+        <p class="description">
+          Desenvolvedor Frontend, acredito que um bom desenvolvedor é aquele com
+          a capacidade de resolver problemas.
         </p>
       </header>
 
       <main class="main">
-        <ul>
+        <ul class="links__sociais">
           <li>
-            <a href="https://linkedin.com" target="_blank" class="link"
-              >Linkedin</a
-            >
+            <a href="https://linkedin.com" target="_blank" class="link">
+              <span class="sociais">Linkedin</span>
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
           </li>
           <li>
-            <a href="htpps://github.com" target="_blank" class="link">GitHub</a>
+            <a href="htpps://github.com" target="_blank" class="link">
+              <span class="sociais">GitHub</span>
+              <i class="bx bxl-github"></i>
+            </a>
           </li>
           <li>
-            <a href="htpps://instagram.com" target="_blank" class="link"
-              >Instagram</a
-            >
+            <a href="htpps://instagram.com" target="_blank" class="link">
+              <span class="sociais">Instagram</span>
+              <i class="bx bxl-instagram"></i>
+            </a>
           </li>
         </ul>
       </main>
@@ -51,7 +62,11 @@
       <footer class="footer">
         <ul>
           <li>
-            <a href="" class="contact" target="_blank">
+            <a
+              href="https://www.whatsapp.com/?lang=pt_br"
+              class="contact"
+              target="_blank"
+            >
               <img
                 src="./assets/images/Whatsapp.png"
                 alt="Icone Whatsapp"
@@ -60,7 +75,7 @@
             </a>
           </li>
           <li>
-            <a href="" class="contact" target="_blank">
+            <a href="mailto:teste@gmail.com" class="contact" target="_blank">
               <img
                 src="./assets/images/Email.png"
                 alt="Icone de Email"
@@ -69,7 +84,7 @@
             </a>
           </li>
           <li>
-            <a href="" class="contact" target="_blank">
+            <a href="tel:+4733378901" class="contact" target="_blank">
               <img
                 src="./assets/images/Phone.png"
                 alt="Icone de Telefone"
